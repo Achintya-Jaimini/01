@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>thank you <?php echo $_POST["yourname"]; ?> | Cube Solvers</title>
+  <link rel="icon" href="unnamed.png" type="image/png">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+
+</head>
+<body>
+<header>
+  <hgroup>
+    <h1 class="hello">SuccessFul!</h1>
+    <h2>form has reached to us successfully!</h2>
+  </hgroup>
+  
+  <nav>
+    <ul>
+	  <li><a href="index.html"><button>Home</button></a></li>
+	  <li><a href="about.html"><button>About Us</button></a></li>
+	  <li><a href="contact.html"><button>Contact Us</button></a></li>
+    </ul>
+  </nav>
+</header>
+<section>
+<div class="php">
+<p>Thank You</p><b><?php echo $_POST["yourname"]; ?></b><br>
+<p>we will surely get you on this email:</p><b>
+<?php echo $_POST["youremail"]; ?></b>
+</div>
+</section>
+<footer>
+
+<small>Copyright © 2021 Achintya Jaimini</small>
+
+
+
+</footer>
+</body>
+</html>
